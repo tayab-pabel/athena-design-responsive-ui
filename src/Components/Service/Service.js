@@ -5,9 +5,11 @@ import service2 from '../../images/service2.png';
 import service3 from '../../images/service3.png';
 import service4 from '../../images/service4.png';
 
+ 
 const Service = () => {
     return (
-        <div className="service container my-5 py-5 text-center">
+        <div className="service container mt-5 text-center">
+
             <div className="service-header">
                 <h2>What we do</h2>
                 <p>Our main focus is to make the User Experience very simple and easy. Simplicity is our Strength.</p>
@@ -39,3 +41,4 @@ const Service = () => {
 };
 
 export default Service;
+
