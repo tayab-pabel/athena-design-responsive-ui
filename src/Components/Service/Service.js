@@ -9,7 +9,6 @@ import service4 from '../../images/service4.png';
 const Service = () => {
     return (
         <div className="service container mt-5 text-center">
-
             <div className="service-header">
                 <h2>What we do</h2>
                 <p>Our main focus is to make the User Experience very simple and easy. Simplicity is our Strength.</p>
