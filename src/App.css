@@ -71,3 +71,10 @@ ul li,
     -2px -0px 10px #06abed32;
     border-radius: 30px 0px;
 }
+.bannerBg{
+    background-image: url("../src/images/bannerBg.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
