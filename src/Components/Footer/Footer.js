@@ -28,45 +28,45 @@ const Footer = () => {
                 </div>
                 <div className="col-md-3 mt-3">
                     <ul  className="list-unstyled">
-                        <li>
+                        <li className="py-2">
                             <a href="#">Features</a>
                         </li>
-                        <li>
+                        <li className="py-2">
                             <a href="#">Enterprise</a>
                         </li>
-                        <li>
+                        <li className="py-2">
                             <a href="#">Pricing</a>
                         </li>
                     </ul>
                 </div>
                 <div className="col-md-3 mt-3">
                     <ul  className="list-unstyled">
-                        <li>
+                        <li className="py-2">
                             <a href="#">Blog</a>
                         </li>
-                        <li>
+                        <li className="py-2">
                             <a href="#">Help Center</a>
                         </li>
-                        <li>
+                        <li className="py-2">
                             <a href="#">Contact Us</a>
                         </li>
-                        <li>
+                        <li className="py-2">
                             <a href="#">Status</a>
                         </li>
                     </ul>
                 </div>
                 <div className="col-md-2 mt-3">
                     <ul  className="list-unstyled">
-                        <li>
+                        <li className="py-2">
                             <a href="#">About Us</a>
                         </li>
-                        <li>
+                        <li className="py-2">
                             <a href="#">Terms of Service</a>
                         </li>
-                        <li>
+                        <li className="py-2">
                             <a href="#">Security</a>
                         </li>
-                        <li>
+                        <li className="py-2">
                             <a href="#">Login</a>
                         </li>
                     </ul>

@@ -6,7 +6,7 @@ import icon4 from '../../images/transportation.png'
 
 const Achievement = () => {
     return (
-        <div className="achievement container my-5 py-5">
+        <div id="achievement" className="achievement container my-5 py-5">
             <div className="row d-flex align-items-center">
                 <div className="col-md-5">
                     <h2>Our Achievements</h2>

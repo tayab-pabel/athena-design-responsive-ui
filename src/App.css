@@ -1,3 +1,7 @@
+.container {
+    max-width: 1400px;
+}
+
 h1, h2 {
     font-family: 'Yeseva One', cursive;
     color: #0D052E;
@@ -186,15 +190,42 @@ ul li,
 .footer ul li a:hover {
     text-decoration: none;
 }
-    box-shadow:  5px 10px 10px #1bd7bb36, 
-    -2px -0px 10px #06abed32;
-    border-radius: 30px 0px;
-}
 
-.bannerBg{
+.header{
     background-image: url("../src/images/bannerBg.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+
+.service {
+    background-image: url("../src/images/service-bg.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pricing {
+    background-image: url("../src/images/pricing-bg.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 540px){
+    h1 {
+        font-size: 34px;
+    }
+    
+    h2, 
+    h3 {
+        font-size: 27px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+
