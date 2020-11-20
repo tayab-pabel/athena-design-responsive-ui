@@ -1,11 +1,10 @@
 import React from 'react';
-import './Navbar.css';
 import logo from '../../../images/logo.png';
 
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light py-3">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
                 <a className="navbar-brand" to="/">
                     <img className="img-fluid logo" src={logo} alt="Logo"/>
@@ -22,19 +21,16 @@ const Navbar = () => {
                         <a className="nav-link mr-4" href="#">About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link mr-4" href="#">Service</a>
+                        <a className="nav-link mr-4" href="#">Services</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link mr-4" to="/dashboard">Dashboard</a>
+                        <a className="nav-link mr-4" href="#">Pricing</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link mr-4" href="#">Event</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link mr-4" href="#">Contact</a>
+                        <a className="nav-link mr-4" href="#">Our Team</a>
                     </li>
                     </ul>
-                    <a href="#" className="btn">Login</a>
+                    <a href="#" className="btn mt-md-0 mt-2">Contact Us</a>
                 </div>
             </div>
         </nav>

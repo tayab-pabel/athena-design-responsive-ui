@@ -10,7 +10,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-6">
                     <h2>STAY RUNNING & Project</h2>
-                    <p className="mt-4 mb-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter.</p>
+                    <p className="my-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter.</p>
                     <a href="#" className="btn">Contact Us</a>
                 </div>
             </div>
