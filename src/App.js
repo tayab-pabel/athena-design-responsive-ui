@@ -4,6 +4,8 @@ import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header/Header';
 import Service from './Components/Service/Service';
 import Pricing from './Components/Pricing/Pricing';
+import Subscribe from './Components/Subscribe/Subscribe';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       <Header />
       <Service />
       <Contact />
-      <Achievement/>
-      <Pricing/>
+      <Achievement />
+      <Pricing />
+      <Subscribe />
+      <Footer />
     </div>
   );
 }
