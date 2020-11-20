@@ -7,6 +7,16 @@ import service4 from '../../images/service4.png';
 
 const Service = () => {
     return (
+        <div className="container-fluid serviceIllustration">
+            <div className="service container mt-5 text-center ">
+
+                <div className="service-header">
+                    <h2>What we do</h2>
+                    <p>Our main focus is to make the User Experience very simple and easy. Simplicity is our Strength.</p>
+                </div>
+                <div className="row mt-5">
+                    <div className="col-md-3">
+                        <div className="card border-0 bg-none">
         <div id="service" className="service mt-5 text-center">
             <div className="container">
                 <div className="service-header">
@@ -24,6 +34,8 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-3">
+                        <div className="card border-0 bg-none">
                     <div className="col-lg-3 col-md-6 mt-5">
                         <div className="service-card">
                             <div className="card-body zoom">
@@ -33,6 +45,8 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-3">
+                        <div className="card border-0 bg-none">
                     <div className="col-lg-3 col-md-6 mt-5">
                         <div className="service-card">
                             <div className="card-body zoom">
@@ -42,6 +56,8 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-3">
+                        <div className="card border-0 bg-none">
                     <div className="col-lg-3 col-md-6 mt-5">
                         <div className="service-card">
                             <div className="card-body zoom">

@@ -1,3 +1,8 @@
+
+body{
+     background-color: #FAFFFD;
+}
+
 .container {
     max-width: 1400px;
 }
@@ -89,6 +94,15 @@ ul li,
     padding: 14px 46px;
 }
 
+.achivementCardActive{
+    background-image: linear-gradient(to left, #1BD7BA, #06ACED);
+    border: none;
+    border-radius: 0px 50px;   
+}
+.achivementCard{
+    border: none;
+    border-radius: 50px 0px;    
+}
 .btn:hover {
     color: #FFFFFF;
 }
@@ -196,6 +210,34 @@ ul li,
     min-height: 100vh;
 }
 
+
+.serviceIllustration{
+    background-image: url("../src/images/Path\ 74.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FAFFFD;
+}
+.bg-none{
+background-color: transparent !important;
+}
+
+.pricingIllustration{
+    background-image: url("../src/images/pricing.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FAFFFD;
+}
+.achivementIllustration{
+    background-color: #FAFFFD;
+}
+
+.card{
+    transform: scale(1.1) !important; 
+    transition: .5s ease;
+}
+
 .service {
     background-image: url("../src/images/service-bg.png");
     background-size: cover; 
@@ -224,5 +266,4 @@ ul li,
         text-align: center;
     }
 }
-
 
