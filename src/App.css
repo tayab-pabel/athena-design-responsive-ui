@@ -101,10 +101,10 @@ background-color: transparent !important;
     background-color: #FAFFFD;
 }
 .achivementIllustration{
-    background-image: url("../src/images/achivement.png");
+    /* background-image: url("../src/images/achivement.png");
     background-size: cover; 
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     background-color: #FAFFFD;
 }
 
