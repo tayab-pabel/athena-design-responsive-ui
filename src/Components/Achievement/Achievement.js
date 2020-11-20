@@ -16,48 +16,64 @@ const Achievement = () => {
                     <div className="col-md-7">
                         <div className="row">
                             <div className="col-md-6 my-4">
-                                <div className="d-flex">
-                                    <div className="icon">
-                                        <img className="img-fluid" src={icon1} alt="" />
-                                    </div>
-                                    <div className="content pl-4">
-                                        <h3>700+</h3>
-                                        <p>Happy Clients</p>
+                                <div className="card shadow-sm achivementCardActive">
+                                    <div className="card-body">
+                                        <div className="d-flex">
+                                            <div className="icon">
+                                                <img height='50' className="img-fluid" src={icon1} alt="" />
+                                            </div>
+                                            <div className="content pl-4">
+                                                <h3>700+</h3>
+                                                <p>Happy Clients</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 my-4">
-                                <div className="d-flex">
-                                    <div className="icon">
-                                        <img className="img-fluid" src={icon2} alt="" />
-                                    </div>
-                                    <div className="content pl-4">
-                                        <h3>140+</h3>
-                                        <p>Projects Completed</p>
+                                <div className="card shadow-sm achivementCard">
+                                    <div className="card-body">
+                                        <div className="d-flex">
+                                            <div className="icon">
+                                                <img className="img-fluid" src={icon2} alt="" />
+                                            </div>
+                                            <div className="content pl-4">
+                                                <h3>140+</h3>
+                                                <p>Projects Completed</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-6 my-4">
-                                <div className="d-flex">
-                                    <div className="icon">
-                                        <img className="img-fluid" src={icon3} alt="" />
-                                    </div>
-                                    <div className="content pl-4">
-                                        <h3>25+</h3>
-                                        <p>Crazy Minds</p>
+                                <div className="card shadow-sm achivementCard">
+                                    <div className="card-body">
+                                        <div className="d-flex">
+                                            <div className="icon">
+                                                <img className="img-fluid" src={icon3} alt="" />
+                                            </div>
+                                            <div className="content pl-4">
+                                                <h3>25+</h3>
+                                                <p>Crazy Minds</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 my-4">
-                                <div className="d-flex">
-                                    <div className="icon">
-                                        <img className="img-fluid" src={icon4} alt="" />
-                                    </div>
-                                    <div className="content pl-4">
-                                        <h3>75+</h3>
-                                        <p>Running Projects</p>
+                                <div className="card shadow-sm achivementCard">
+                                    <div className="card-body">
+                                        <div className="d-flex">
+                                            <div className="icon">
+                                                <img className="img-fluid" src={icon4} alt="" />
+                                            </div>
+                                            <div className="content pl-4">
+                                                <h3>75+</h3>
+                                                <p>Running Projects</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
