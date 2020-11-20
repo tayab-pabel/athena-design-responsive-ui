@@ -3,7 +3,7 @@ import bannerImage2 from '../../images/banner2.png';
 
 const Contact = () => {
     return (
-        <div className="contact container my-5 py-5">
+        <div id="contact" className="contact container my-5 py-5">
             <div className="row d-flex align-items-center">
                 <div className="col-lg-6">
                     <img className="img-fluid" src={bannerImage2} alt=""/>
