@@ -8,46 +8,48 @@ import service4 from '../../images/service4.png';
 
 const Service = () => {
     return (
-        <div className="service container mt-5 text-center">
+        <div className="container-fluid serviceIllustration">
+            <div className="service container mt-5 text-center ">
 
-            <div className="service-header">
-                <h2>What we do</h2>
-                <p>Our main focus is to make the User Experience very simple and easy. Simplicity is our Strength.</p>
-            </div>
-            <div className="row mt-5">
-                <div className="col-md-3">
-                    <div className="card border-0">
-                        <div className="card-body zoom">
-                            <img className="img-fluid" src={service1} alt="" />
-                            <h4 className="mt-4 mb-3">Experience Design</h4>
-                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                <div className="service-header">
+                    <h2>What we do</h2>
+                    <p>Our main focus is to make the User Experience very simple and easy. Simplicity is our Strength.</p>
+                </div>
+                <div className="row mt-5">
+                    <div className="col-md-3">
+                        <div className="card border-0 bg-none">
+                            <div className="card-body zoom">
+                                <img className="img-fluid" src={service1} alt="" />
+                                <h4 className="mt-4 mb-3">Experience Design</h4>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="card border-0">
-                        <div className="card-body zoom">
-                            <img className="img-fluid" src={service2} alt="" />
-                            <h4 className="mt-4 mb-3">Interface Design</h4>
-                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                    <div className="col-md-3">
+                        <div className="card border-0 bg-none">
+                            <div className="card-body zoom">
+                                <img className="img-fluid" src={service2} alt="" />
+                                <h4 className="mt-4 mb-3">Interface Design</h4>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="card border-0">
-                        <div className="card-body zoom">
-                            <img className="img-fluid" src={service3} alt="" />
-                            <h4 className="mt-4 mb-3">Prototyping</h4>
-                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                    <div className="col-md-3">
+                        <div className="card border-0 bg-none">
+                            <div className="card-body zoom">
+                                <img className="img-fluid" src={service3} alt="" />
+                                <h4 className="mt-4 mb-3">Prototyping</h4>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="card border-0">
-                        <div className="card-body zoom">
-                            <img className="img-fluid" src={service4} alt="" />
-                            <h4 className="mt-4 mb-3">Illustration</h4>
-                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                    <div className="col-md-3">
+                        <div className="card border-0 bg-none">
+                            <div className="card-body zoom">
+                                <img className="img-fluid" src={service4} alt="" />
+                                <h4 className="mt-4 mb-3">Illustration</h4>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

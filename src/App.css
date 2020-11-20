@@ -1,3 +1,6 @@
+body{
+     background-color: #FAFFFD;
+}
 h1, h2 {
     font-family: 'Yeseva One', cursive;
 }
@@ -78,3 +81,30 @@ ul li,
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+
+.serviceIllustration{
+    background-image: url("../src/images/Path\ 74.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FAFFFD;
+}
+.bg-none{
+background-color: transparent !important;
+}
+
+.pricingIllustration{
+    background-image: url("../src/images/pricing.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FAFFFD;
+}
+.achivementIllustration{
+    background-image: url("../src/images/achivement.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FAFFFD;
+}
+
